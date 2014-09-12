@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.shizhan.apitest.script.LoginTest"/>
+      <!-- <class name="com.shizhan.tools.getchildrennode"/>
+      <class name="com.shizhan.script.OperationMaintenanceManagementTest"/>
+      <class name="com.shizhan.script.VideoCommand"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> 

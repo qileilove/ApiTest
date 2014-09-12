@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 21 17:23:18 CST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (610 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.shizhan.apitest.script.LoginTest.testlogin()'><b>testlogin</b><br>Test class: com.shizhan.apitest.script.LoginTest<br/>
+<a href="#Output-1821979" onClick='toggleBox("Output-1821979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821979">
+Reporter:map对象{username=admin, password=admin}<br/>
+Reporter:URL地址:http://192.168.60.233:82/service/login<br/>
+Reporter:响应内容: 
+{"code":200,"data":{"message": "成功" ,"url":"/"}}
+<br/>
+Reporter:map对象{username=test, password=aa1}<br/>
+Reporter:URL地址:http://192.168.60.233:82/service/login<br/>
+Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+<br/>
+Reporter:map对象{username=test3, password=aa}<br/>
+Reporter:URL地址:http://192.168.60.233:82/service/login<br/>
+Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+<br/>
+Reporter:map对象{username=test, password= }<br/>
+Reporter:URL地址:http://192.168.60.233:82/service/login<br/>
+Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+<br/>
+Reporter:map对象{username=, password=aa}<br/>
+Reporter:URL地址:http://192.168.60.233:82/service/login<br/>
+Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+<br/>
+Reporter:map对象{username=, password= }<br/>
+Reporter:URL地址:http://192.168.60.233:82/service/login<br/>
+Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.shizhan.apitest.script.LoginTest@1bc3013</td></tr>
+</table><p>
+</body>
+</html>

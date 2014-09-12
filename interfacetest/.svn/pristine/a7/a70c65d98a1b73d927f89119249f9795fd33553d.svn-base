@@ -1,0 +1,14 @@
+#**********************************Set excelpath**********************************#
+testCasesPath=./aa.xls
+aa.xls
+#**********************************233环境Set sheetname**********************************#
+sheetname=logintest
+#**********233环境验证信息页**************#
+assertsheet=assertlogin
+#**********************************Login URL**********************************#
+#*请勿改动*#
+loginurl=http://192.168.60.233:82/service/login
+#登陆的用户名和密码#
+username=admin
+password=admin
+

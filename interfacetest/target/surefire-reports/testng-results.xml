@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Reporter:map对象{username=admin, password=admin}]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:响应内容: 
+{"code":200,"data":{"message": "成功" ,"url":"/"}}
+]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:map对象{username=test, password=aa1}]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:map对象{username=test3, password=aa}]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:map对象{username=test, password= }]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:map对象{username=, password=aa}]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:map对象{username=, password= }]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+    </line>
+  </reporter-output>
+  <suite name="com.shizhan.apitest.script.LoginTest" duration-ms="541" started-at="2014-08-21T10:01:41Z" finished-at="2014-08-21T10:01:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="541" started-at="2014-08-21T10:01:41Z" finished-at="2014-08-21T10:01:42Z">
+      <class name="com.shizhan.apitest.script.LoginTest">
+        <test-method status="PASS" signature="testlogin()[pri:0, instance:com.shizhan.apitest.script.LoginTest@10a234]" name="testlogin" duration-ms="533" started-at="2014-08-21T18:01:41Z" finished-at="2014-08-21T18:01:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporter:map对象{username=admin, password=admin}]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:响应内容: 
+{"code":200,"data":{"message": "成功" ,"url":"/"}}
+]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:map对象{username=test, password=aa1}]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:map对象{username=test3, password=aa}]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:map对象{username=test, password= }]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:map对象{username=, password=aa}]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:map对象{username=, password= }]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:URL地址:http://192.168.60.233:82/service/login]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:响应内容: 
+{"code":500,"data":{"message": "用户不存在或密码不正确" ,"url":"/login"}}
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- com.shizhan.apitest.script.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.shizhan.apitest.script.LoginTest -->
+</testng-results>
